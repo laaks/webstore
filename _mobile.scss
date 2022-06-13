@@ -1,0 +1,218 @@
+@media (max-width: 340px) {
+	.product__icons {
+		top: 13px;
+		left: 214px !important;
+	}
+
+	.footer__info {
+		gap: 70px !important;
+	}
+	.cart__item {
+		flex-wrap: wrap;
+	}
+	.cart__form__input-input {
+		width: 230px;
+	}
+}
+
+@media (max-width: 767px) {
+	.center {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.header {
+		padding-top: 32px;
+		border-bottom:none;
+
+		&__input {
+			display: none;
+		}
+	}
+
+	.menu {
+		display: none;
+
+		&-mob {
+			display: flex;
+			align-items: center;
+			gap: 32px;
+
+			&__item {
+				text-decoration: none;
+			}
+		}
+	}
+
+	.logo {
+		&__img {
+			width: 99px;
+		}
+
+	}
+
+	.top-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.heading {
+		font-size: 48px;
+		line-height: 59px;
+		text-align: center;
+
+
+		&-text {
+			font-size: 16px;
+		}
+
+	}
+
+	.heading-catalog {
+		margin-top: 99px;
+	}
+
+	.breadcrumbs {
+		margin-top: 32px;
+
+		&__content {
+			gap: 16px;
+		}
+	}
+
+	.section-link {
+		font-size: 14px;
+
+	}
+
+	.heading-h2 {
+		font-size: 24px;
+		line-height: 29px;
+	}
+
+	.product {
+		&-box {
+			padding-top: 32px;
+		}
+
+		&__icons {
+			top: 13px;
+			left: 265px;
+		}
+
+		&__text {
+			font-size: 14px;
+			line-height: 17px;
+		}
+	}
+
+
+	.for {
+		grid-template-columns: repeat(4, 1fr);
+		gap: 16px;
+
+		&-box {
+			padding-top: 32px;
+		}
+
+		&__item {
+			grid-column: 1 / -1;
+			height: 375px;
+			font-size: 28px;
+			line-height: 34px;
+
+			&-big {
+				height: 244px;
+			}
+		}
+	}
+
+	.heading-h3 {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.price {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.price-old {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.cart {
+		grid-template-columns: repeat(4, 1fr);
+		gap: 48px;
+
+		&__content {
+			grid-column: 1 / -1;
+		}
+
+		&__item {
+			padding-top: 18px;
+		}
+
+		&__left-img {
+			display: none;
+		}
+
+		&__info-heading {
+			font-size: 18px;
+			line-height: 22px;
+		}
+
+		&__info {
+			gap: 8px;
+
+			&-text {
+				font-size: 12px;
+				line-height: 15px;
+				margin-bottom: 8px;
+			}
+
+			&-price {
+				font-size: 12px;
+				line-height: 15px;
+				margin-bottom: 8px;
+			}
+		}
+
+		&__form {
+			margin-bottom: 16px;
+		}
+
+		&__form__input {
+			margin-top: 0;
+		}
+	}
+
+	.button-cart {
+		flex-wrap: nowrap;
+		gap: 14px;
+		padding: 0;
+
+		&__button {
+			width: 163px;
+			font-size: 12px;
+			line-height: 15px;
+		}
+	}
+
+	.footer {
+		margin-top: 32px;
+		padding-top: 34px;
+
+		&__content {
+			justify-content: center;
+			gap: 34px;
+		}
+
+		&__info {
+			gap: 100px;
+		}
+	}
+
+}
